@@ -1,0 +1,26 @@
+{
+    "name": "servoboard",
+    "description": "",
+    "dependencies": {
+        "adafruit-circuit-playground-express": "*",
+        "pxt-pca9685": "github:jdarling/pxt-pca9685#v0.0.5",
+        "crickit": "github:adafruit/pxt-crickit#v0.0.32"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "0.13.64",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "blocksprj"
+}
